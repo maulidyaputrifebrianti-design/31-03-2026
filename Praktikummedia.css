@@ -1,0 +1,34 @@
+body {
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+/*Mobile*/
+@media only screen and (min-width: 480px) {
+    body {
+        background: rgb(122, 163, 176);
+    }
+    h1 {
+        font-size: large;
+    }
+}
+
+/*Tablet*/
+@media only screen and (min-width: 760px) {
+    body {
+        background: rgb(143, 68, 149);
+    }
+
+}
+
+/*Laptop/PC*/
+@media only screen and (min-width: 1024px) {
+    body {
+        background: rgb(18, 92, 72);
+    }
+    h1 {
+        font-size: 50px;
+    }
+}
+
+
